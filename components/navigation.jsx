@@ -21,9 +21,9 @@ export default function Navigation() {
 		  <ul
 			tabIndex={0}
 			className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-			<li><a>Item 1</a></li>
-			<li><a>Item 2</a></li>
-			<li><a>Item 3</a></li>
+			<li><a href="/compendium/monsters">Monsters</a></li>
+			<li><a href="/compendium/magic-items">Magic Items</a></li>
+			<li><a href="/compendium/spells">Spells</a></li>
 		  </ul>
 		</div>
 		<a className="btn btn-ghost text-xl">Compendium</a>

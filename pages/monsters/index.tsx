@@ -10,7 +10,7 @@ export default function Monsters() {
         <div>
           <div><button className="btn btn-primary">Monsters</button></div>
           <MonsterList/>
-          <div className="detail-content">
+          <div>
             <div className="mon-stat-block">
     <div className="mon-stat-block-inner">
     <div className="mon-stat-block__header">

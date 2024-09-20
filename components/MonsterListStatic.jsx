@@ -215,7 +215,7 @@ export default function MonsterListStatic() {
 	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
   let mon;
   if (data) mon = data['displacer-beast']
-  if(mon) {
+  if(true) {
 	return (
 		<div>
 		  <div className="mon-stat-block">
@@ -244,9 +244,6 @@ export default function MonsterListStatic() {
                 </span>
                 <span className="mon-stat-block__attribute-data-extra">
                   (2d8 + 2)
-                  <span className="ct-beyond20-custom-roll-button">
-                    <span className="ct-beyond20-custom-icon"> roll </span>
-                  </span>
                 </span>      
               </span>
             </div>

@@ -215,7 +215,8 @@ export default function MonsterListStatic() {
 	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
 
 
-	console.log(data['displacer-beast'])
+	const mon = data['displacer-beast']
+  if(mon) {
 	return (
 		<div>
 		  <div className="mon-stat-block">
@@ -356,5 +357,8 @@ export default function MonsterListStatic() {
 		  </div>
 	  </div>
 	);
+  } else {
+    return 'loading'
+  }
 }
   

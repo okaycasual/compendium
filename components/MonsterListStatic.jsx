@@ -1,14 +1,26 @@
 "use client";
 
-export default function MonsterListStatic() {
+import { useQuery } from '@tanstack/react-query';
 
+async function getApiData() {
+	const res = await fetch(
+		"/compendium/data/monsters.json",
+	);
+	return res.json();
+}
+
+
+export default function MonsterListStatic() {
+	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
+
+	console.log(data)
 	return (
 		<div>
 		<div className="mon-stat-block">
 <div className="mon-stat-block-inner">
 <div className="mon-stat-block__header">
   <div className="monster-heading">
-	<h1>Displacer Beast</h1>
+	<h1>Displacer Beastt</h1>
 	<h2>Large monstrosity, lawful evil</h2>
   </div>
 </div>

@@ -213,7 +213,7 @@ export default function MonsterList() {
 
 	console.log(data)
 	return (
-	  <div className="navbar bg-base-100">
+	  <div>
 			{renderMonster(data && data['displacer-beast'])}
 	  </div>
 	);

@@ -211,6 +211,7 @@ function renderMonster(mon){
 export default function MonsterList() {
 	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
 
+	console.log(data)
 	return (
 	  <div className="navbar bg-base-100">
 			{renderMonster(data && data['displacer-beast'])}

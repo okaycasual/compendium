@@ -1,5 +1,4 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
 
 import { useQuery } from '@tanstack/react-query';
 
@@ -246,7 +245,7 @@ export default function MonsterListStatic() {
                 <span className="mon-stat-block__attribute-data-extra">
                   (2d8 + 2)
                   <span className="ct-beyond20-custom-roll-button">
-                    <img className="ct-beyond20-custom-icon" src="https://cdn-icons-png.flaticon.com/256/6831/6831868.png" style="width:40px;height:40px" />
+                    <span className="ct-beyond20-custom-icon"> roll </span>
                   </span>
                 </span>      
               </span>

@@ -39,7 +39,6 @@ function renderMonster(mon){
   if(mon && mon.name) {
 	return (
 		<div class="mon-stat-block">
-			<hr class="orange-border" />
 			<div class="mon-stat-block-inner">
 				<div class="mon-stat-block__header">
 					<div class="monster-heading">

@@ -215,7 +215,7 @@ export default function MonsterListStatic() {
 	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
   let mon;
   if (data) mon = data['displacer-beast']
-  if(mon) {
+  if(true) {
 	return (
 		<div>
 		  <div className="mon-stat-block">

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import MonsterList from '../../components/MonsterList'
 import MonsterListStatic from '../../components/MonsterListStatic'
 export default function Monsters() {
   return (
@@ -10,7 +9,7 @@ export default function Monsters() {
       <main>
         <div>
           <div><button className="btn btn-primary">Monsters</button></div>
-          <MonsterList />
+          <MonsterListStatic />
         </div>
       </main>
     </>

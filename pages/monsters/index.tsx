@@ -10,7 +10,7 @@ export default function Monsters() {
       <main>
         <div>
           <div><button className="btn btn-primary">Monsters</button></div>
-          <MonsterListStatic />
+          <MonsterList />
         </div>
       </main>
     </>

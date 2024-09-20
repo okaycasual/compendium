@@ -244,7 +244,8 @@ export default function MonsterListStatic() {
                 </span>
                 <span className="mon-stat-block__attribute-data-extra">
                   (2d8 + 2)
-                  <span className="ct-beyond20-custom-roll-button" id="beyond20-roll-custom-20797582585420082" style="margin-right:3px; margin-left: 3px;"><img className="ct-beyond20-custom-icon" src="chrome-extension://ccnkjihmcmnomjdkofifiabkbmpiielp/images/icons/badges/custom20.png" /></span>
+                  <span className="ct-beyond20-custom-roll-button" >
+                    <img className="ct-beyond20-custom-icon" src="https://cdn-icons-png.flaticon.com/256/6831/6831868.png" style="width:40px;height:40px" /></span>
                 </span>      
               </span>
             </div>

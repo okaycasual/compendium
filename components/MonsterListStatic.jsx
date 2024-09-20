@@ -213,9 +213,8 @@ function renderMonster(mon){
 
 export default function MonsterListStatic() {
 	const { data }  = useQuery({ queryKey: ["myData"], queryFn: getApiData });
-
-
-	const mon = data['displacer-beast']
+  let mon;
+  if (data) mon = data['displacer-beast']
   if(mon) {
 	return (
 		<div>
